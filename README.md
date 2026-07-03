@@ -1,3 +1,10 @@
+<h1 align="center"> Projeto de Programação Orientada a Objetos (POO) </h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+</p>
+
+
 # Projeto Prático de Programação Orientada a Objetos (POO) em Java
 
 Este repositório contém uma aplicação desenvolvida em Java puro com o objetivo de demonstrar os fundamentos da Programação Orientada a Objetos (POO). O projeto engloba cálculos matemáticos para áreas de figuras geométricas, rotinas de saúde (como o cálculo de IMC) e lógicas de estruturação e sorteio para seleção de times.
