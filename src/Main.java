@@ -22,51 +22,44 @@ public class Main {
         opcao = entrada.nextInt();
 
 
-        switch (opcao){  //ESCOLHA(OPCAO)
-            case 1:      //CASO 1:
-                //nomeClasse apelido = new nomeClasse();
+        switch (opcao){  
+            case 1:      
+               //nomeClasse apelido = new nomeClasse();
                 AreaQuadrado areaq = new AreaQuadrado();
                 areaq.calcularAreaQuadrado(entrada);
                 break; //PARA O FLUXO DO PROGRAMA, PARA DE EXECUTAR O SWITCH
 
             case 2:
-                //nomeClasse apelido = new nomeClasse();
                 AreaCirculo areac = new AreaCirculo();
                 areac.calcularAreaCirculo(entrada);
                 break;
 
             case 3:
-                //nomeClasse apelido = new nomeClasse();
                 AreaTriangulo areat = new AreaTriangulo();
                 areat.calcularAreaTriangulo(entrada);
                 break;
 
             case 4:
-                //nomeClasse apelido = new nomeClasse();
                 AreaRetangulo arear = new AreaRetangulo();
                 arear.calcularAreaRetangulo(entrada);
                 break;
 
             case 5:
-                //nomeClasse apelido = new nomeClasse();
                 AreaLosango areal = new AreaLosango();
                 areal.calcularAreaLosango(entrada);
                 break;
 
             case 6:
-                //nomeClasse apelido = new nomeClasse();
                 AreaTrapezio areatz = new AreaTrapezio();
                 areatz.calcularAreaTrapezio(entrada);
                 break;
 
             case 7:
-                //nomeClasse apelido = new nomeClasse();
                 IMC imc = new IMC();
                 imc.calcularIMC(entrada);
                 break;
 
             case 8:
-                //nomeClasse apelido = new nomeClasse();
                 EscolhaTime EscolhaTime = new EscolhaTime();
                 EscolhaTime.escolherTime(entrada);
                 break;
@@ -89,7 +82,7 @@ public class Main {
 
         } while (opcao != 0);
 
-        // Fechando o Scanner para liberar a memória (resolve o aviso do VS Code)
+        // Fechando o Scanner para liberar a memória 
         entrada.close();
     }
 }
