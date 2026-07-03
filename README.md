@@ -14,6 +14,11 @@ O foco deste projeto é evidenciar o encapsulamento, a separação de responsabi
   * Implementa as regras de negócio para classificação baseada nas diretrizes padrão da Organização Mundial da Saúde (OMS).
 * **Módulo de Utilitários (Seleção de Times):**
   * Rotina focada na lógica de randomização e distribuição equitativa de dados para alocação de participantes em grupos/times.
+ 
+ ## Tecnologias e Ferramentas
+* Linguagem: Java (JDK)
+* Paradigma Principal: Orientação a Objetos (POO)
+* Controle de Versão: Git e GitHub
 
 ## Estrutura e Arquitetura do Projeto
 
